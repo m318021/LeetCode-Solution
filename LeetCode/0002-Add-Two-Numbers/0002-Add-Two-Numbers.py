@@ -39,10 +39,11 @@ class Solution:
 
 if __name__ == '__main__':
 
-    l1 = list_lib().makeLinkList([2,4,5])
+    l1 = list_lib().makeLinkList([2,4,3])
     l2 = list_lib().makeLinkList([5,6,4])
 
     result = Solution().addTwoNumbers(l1, l2)
     
+    print("Input: l1 = [2,4,3], l2 = [5,6,4]\nOutput : ",end='')
     list_lib().printLinkList(result)
     
