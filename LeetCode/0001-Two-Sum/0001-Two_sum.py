@@ -20,6 +20,6 @@ if __name__ == '__main__':
 
     nums = [ 2, 7, 11, 15 ]
     target = 9
-    result = Solution().twoSum(nums, target)
     
-    print(result)
+    result = Solution().twoSum(nums, target)
+    print("Input: nums = [2,7,11,15], target = 9\nOutput = {}\n".format(result))
