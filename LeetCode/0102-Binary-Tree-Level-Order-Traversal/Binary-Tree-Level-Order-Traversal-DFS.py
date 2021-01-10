@@ -15,11 +15,11 @@ class Solution:
         level = 0
         node_0 = root
         result = []
-        self.level(root, 0 , result)
+        self.dfs(root, 0 , result)
 
         return result
     
-    def level(self, root: TreeNode, level:int, result:List)->List:
+    def dfs(self, root: TreeNode, level:int, result:List)->List:
 
         if root == None:
             return 
@@ -28,9 +28,9 @@ class Solution:
         result[level].append(root.val)
 
         if root.left:
-            self.level(root.left, level+1, result)
+            self.dfs(root.left, level+1, result)
         if root.right:
-            self.level(root.right, level+1, result)
+            self.dfs(root.right, level+1, result)
 
 
     def build_tree(self, root: TreeNode, tree_list:List, index:int ) -> TreeNode:
@@ -64,16 +64,4 @@ if __name__ == '__main__':
 
     result = Solution().levelOrder(root)
     print("Output = {}\n".format(result))
-    # n = 3
-    # result = Solution().trailingZeroes(n)
-    # print("Input: {}, Output = {}\nExpect = 0\n".format(n, result))
-
-
-    # n = 5
-    # result = Solution().trailingZeroes(n)
-    # print("Input: {}, Output = {}\nExpect = 1\n".format(n, result))
-
-    # n = 1
-    # result = Solution().trailingZeroes(n)
-    # print("Input: {}, Output = {}\nExpect = 0\n".format(n, result))
 

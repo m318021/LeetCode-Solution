@@ -53,6 +53,6 @@ if __name__ == '__main__':
     result = Solution().isValid(s)
     print("Input: {}, Output = {}\nExpect = False\n".format(s, result))
 
-    s  = "{[]}"
+    s = "{[]}"
     result = Solution().isValid(s)
     print("Input: {}, Output = {}\nExpect = True\n".format(s, result))
