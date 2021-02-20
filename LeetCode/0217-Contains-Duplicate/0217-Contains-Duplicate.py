@@ -1,4 +1,4 @@
-# 217 Contains Duplicate- Easy 
+# 217. Contains Duplicate- Easy
 # https://leetcode.com/problems/contains-duplicate/
 
 from typing import List
