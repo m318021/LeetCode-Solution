@@ -15,8 +15,6 @@ class Solution:
         return count
 
 
-
-
 if __name__ == '__main__':
     num = 4
     result = Solution().countEven(num)
