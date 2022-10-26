@@ -1,6 +1,3 @@
-# 1. Two Sum - Easy 
-# https://leetcode.com/problems/two-sum/
-
 # Definition for singly-linked list.
 class ListNode:
     def __init__(self, val=0, next=None):
