@@ -1,4 +1,4 @@
-# https://leetcode.com/problems/min-cost-climbing-stairs/
+# https://leetcode.com/problems/climbing-stairs/
 # f(n) = f(n-1) + f(n-2)
 
 class Solution:
