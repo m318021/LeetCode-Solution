@@ -1,8 +1,8 @@
-id = "0097"
-title = "Squares of a Sorted Array"
-url = "https://leetcode.com/problems/squares-of-a-sorted-array/"
+id = "0141"
+title = "Linked List Cycle"
+url = "https://leetcode.com/problems/linked-list-cycle/"
 language = "Python3"
-case_path = "LeetCode/0977-Squares-of-a-Sorted-Array/0977.py"
+case_path = "LeetCode/0141-Linked-List-Cycle/0141.py"
 Difficulty = "Easy"
 
 
