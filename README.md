@@ -9,6 +9,8 @@ LeetCode
 |0070|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [python3](./LeetCode/0070-Climbing-Stairs/0070.py) | Easy |
 |0082|[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) | [python3](./LeetCode/0082-Remove-Duplicates-from-Sorted-List-II/0082.py) | Medium |
 |0083|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [python3](./LeetCode/0083-Remove-Duplicates-from-Sorted-List/0083.py) | Easy |
+|0088|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [Python3](./LeetCode/0088-Merge-Sorted-Array/0088.py) | Easy | 
 |0415|[Add Strings](https://leetcode.com/problems/add-strings/) | [python3](./LeetCode/0415-Add-Strings/0415.py) | Easy|
 |0746|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | [python3](./LeetCode/0746-Min-Cost-Climbing-Stairs/0746.py) | Easy | 
+|0977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [Python3](LeetCode/0977-Squares-of-a-Sorted-Array/0977.py) | Easy | 
 
