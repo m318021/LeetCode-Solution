@@ -1,57 +1,50 @@
 import json
+import configparser
+import pathlib, os
+import yaml
+
+# leetCode_config = configparser.ConfigParser()
+root_path = pathlib.Path(__file__).parent.parent.resolve()
 
 folder_name = "LeetCode"
-cases = [
-    {
-        "id" : "0001",
-        "name" : "Two Sum",
-        "url": "https://leetcode.com/problems/two-sum/",
-        "language": "Python3",
-        "difficulty": "Easy",
-    },
-]
+leetCode_yaml_path = "utility/leetCode.yaml"
 
-def func_generate_case_info(id, url, language, difficulty):
+def get_yaml_data(yaml_file_path):
+    file_path = os.path.join(root_path, yaml_file_path)
+    with open(file_path) as f:
+        yaml_data = yaml.load(f, Loader=yaml.SafeLoader)
 
-    split_url = url.split("/")
-    path_name = split_url[-2]
-    split_path_name = path_name.split("-")
-    # print(split_path_name)
-    new_split_path_name = []
-    new_path_name = ""
-    for word in split_path_name:
-        upper_char = word[0].upper()
-        upper_char = upper_char + word[1:]
-        new_split_path_name.append(upper_char)
-    title = ""
-    for word in new_split_path_name:
-        title = title + word + " "
-        new_path_name = new_path_name + word + "-"
+    return yaml_data
 
-    new_path_name = new_path_name[:-1]
-    title = title[:-1]
+def print_json(input):
+    json_formatted_str = json.dumps(input, indent=4)
+    print(json_formatted_str)
 
-    case_info = {
-        "id": id,
-        "title": title,
-        "url": url,
-        "language": language,
-        "case_path": "{}/{}-{}/{}.py".format(folder_name, id, new_path_name, id),
-        "difficulty": difficulty
-    }
+def print_result(data):
+    for item in data:
+        print(item)
 
-    return case_info
+def func_generate_case_info(case_info):
 
-if __name__ == '__main__':
+    split_case_title = case_info["title"].split(" ")
+    case_folder_name = case_info["id"]
+
+    for word in split_case_title:
+        case_folder_name = case_folder_name + "-" + word
+
+    case_name = "{}.py".format(case_info["id"])
+
+    data = case_info
+    data["case_path"] = "{}/{}/{}".format(folder_name, case_folder_name, case_name)
+
+    return data
+
+def generate_readme_md_by_yaml(yaml_file_path = leetCode_yaml_path):
+    leetCode_info = get_yaml_data(yaml_file_path=yaml_file_path)
 
     readme_md = []
-    for case in cases:
-        result = func_generate_case_info(id=case["id"],
-                                         url=case["url"],
-                                         language=case["language"],
-                                         difficulty=case["difficulty"]
-                                         )
-
+    for index in leetCode_info:
+        result = func_generate_case_info(leetCode_info[index])
         add_line = "|{}|[{}]({}) | [{}](./{}) | {} | ".format(result["id"],
                                                               result["title"],
                                                               result["url"],
@@ -59,14 +52,15 @@ if __name__ == '__main__':
                                                               result["case_path"],
                                                               result["difficulty"]
                                                               )
-
-        print(add_line)
-
         readme_md.append(add_line)
 
-    print("Json file : ")
-    json_formatted_str = json.dumps(readme_md, indent=4)
-    print(json_formatted_str)
+    return readme_md
+
+if __name__ == '__main__':
+    print_result(generate_readme_md_by_yaml())
+
+
+
 
 
 
