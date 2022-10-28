@@ -5,6 +5,7 @@ LeetCode
 |--| ----- |-------------------------------------------| ---------- | 
 |0001|[Two Sum](https://leetcode.com/problems/two-sum/) | [python3](./LeetCode/0001-Two-Sum/0001.py) | Easy | 
 |0002|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [python3](./LeetCode/0002-Add-Two-Numbers/0002.py) | Easy | 
+|0003|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Python3](./LeetCode/0003-Longest-Substring-Without-Repeating-Characters/0003.py) | Medium | 
 |0004|[Two Sum](https://leetcode.com/problems/two-sum/) | [Python3](./LeetCode/0004-Two-Sum/0004.py) | Hard | 
 |0006|[Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/) | [Python3](./LeetCode/0006-Zigzag-Conversion/0006.py) | Medium | 
 |0008|[String To Integer Atoi](https://leetcode.com/problems/string-to-integer-atoi/) | [Python3](./LeetCode/0008-String-To-Integer-Atoi/0008.py) | Medium  |
