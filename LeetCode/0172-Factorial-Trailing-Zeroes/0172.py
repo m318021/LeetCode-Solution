@@ -1,6 +1,3 @@
-# 172.Factorial Trailing Zeroes - Easy
-# https://leetcode.com/problems/factorial-trailing-zeroes/
-
 from typing import List
 
 class Solution:

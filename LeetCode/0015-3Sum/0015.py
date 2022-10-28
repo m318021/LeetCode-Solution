@@ -1,6 +1,3 @@
-# 1. 3Sum - Medium
-# https://leetcode.com/problems/3sum/
-
 from typing import List
 
 class Solution:

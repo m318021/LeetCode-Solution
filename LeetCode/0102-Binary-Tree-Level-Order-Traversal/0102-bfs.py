@@ -1,6 +1,3 @@
-# 0107. Binary Tree Level Order Traversal II - Easy
-# https://leetcode.com/problems/binary-tree-level-order-traversal-ii/
-
 from typing import List
 import collections
 
@@ -11,26 +8,25 @@ class TreeNode:
         self.right = right
 
 class Solution:
-    def levelOrderBottom(self, root: TreeNode) -> List[List[int]]:
-        level = 0
-        node_0 = root
+    def levelOrder(self, root: TreeNode) -> List[List[int]]:
+
+        if not root:
+            return []
+
+
+        queue= [ root ]
         result = []
-        self.dfs(root, 0 , result)
-
+        while queue:
+            temp_list = []
+            for i in range(len(queue)):
+                temp = queue.pop(0)
+                temp_list.append(temp.val)
+                if temp.left:
+                    queue.append(temp.left)
+                if temp.right:
+                    queue.append(temp.right)
+            result.append(temp_list)
         return result
-    
-    def dfs(self, root: TreeNode, level:int, result:List)->List:
-
-        if root == None:
-            return 
-        if level==len(result):
-            result.insert(0,[])
-        result[-(level+1)].append(root.val)
-
-        if root.left:
-            self.dfs(root.left, level+1, result)
-        if root.right:
-            self.dfs(root.right, level+1, result)
 
     def build_tree(self, root: TreeNode, tree_list:List, index:int ) -> TreeNode:
 
@@ -61,6 +57,18 @@ if __name__ == '__main__':
     node_0 = TreeNode(tree[0])
     root = Solution().build_tree(node_0, tree, 0)
 
-    result = Solution().levelOrderBottom(root)
+    result = Solution().levelOrder(root)
     print("Output = {}\n".format(result))
+    # n = 3
+    # result = Solution().trailingZeroes(n)
+    # print("Input: {}, Output = {}\nExpect = 0\n".format(n, result))
+
+
+    # n = 5
+    # result = Solution().trailingZeroes(n)
+    # print("Input: {}, Output = {}\nExpect = 1\n".format(n, result))
+
+    # n = 1
+    # result = Solution().trailingZeroes(n)
+    # print("Input: {}, Output = {}\nExpect = 0\n".format(n, result))
 

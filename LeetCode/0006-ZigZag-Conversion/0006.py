@@ -1,5 +1,3 @@
-# 6. ZigZag Conversion - Medium 
-# https://leetcode.com/problems/zigzag-conversion/
 from typing import List
 
 class Solution:
