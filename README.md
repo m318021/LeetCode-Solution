@@ -6,13 +6,13 @@ LeetCode
 |0001|[Two Sum](https://leetcode.com/problems/two-sum/) | [python3](./LeetCode/0001-Two-Sum/0001.py) | Easy | 
 |0002|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [python3](./LeetCode/0002-Add-Two-Numbers/0002.py) | Easy | 
 |0003|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Python3](./LeetCode/0003-Longest-Substring-Without-Repeating-Characters/0003.py) | Medium | 
-|0004|[Two Sum](https://leetcode.com/problems/two-sum/) | [Python3](./LeetCode/0004-Two-Sum/0004.py) | Hard | 
-|0006|[Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/) | [Python3](./LeetCode/0006-Zigzag-Conversion/0006.py) | Medium | 
+|0004|[Median Of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [Python3](./LeetCode/0004-Median-Of-Two-Sorted-Arrays/0004.py) | Hard | 
+|0006|[Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/) | [Python3](./LeetCode/0006-ZigZag-Conversion/0006.py) | Medium | 
 |0008|[String To Integer Atoi](https://leetcode.com/problems/string-to-integer-atoi/) | [Python3](./LeetCode/0008-String-To-Integer-Atoi/0008.py) | Medium  |
 |0009|[Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [Python3](./LeetCode/0009-Palindrome-Number/0009.py) | Easy | 
 |0013|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [Python3](./LeetCode/0013-Roman-to-Integer/0013.py) | Easy | 
 |0014|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [Python3](./LeetCode/0014-Longest-Common-Prefix/0014.py) | Easy | 
-|0015|[3sum](https://leetcode.com/problems/3sum/) | [Python3](./LeetCode/0015-3sum/0015.py) | Medium | 
+|0015|[3sum](https://leetcode.com/problems/3sum/) | [Python3](./LeetCode/0015-3Sum/0015.py) | Medium | 
 |0020|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Python3](./LeetCode/0020-Valid-Parentheses/0020.py) | Easy | 
 |0046|[Permutations](https://leetcode.com/problems/permutations/) | [Python3](./LeetCode/0046-Permutations/0046.py) | Medium | 
 |0047|[Permutations II](https://leetcode.com/problems/permutations-ii/) | [Python3](./LeetCode/0047-Permutations-II/0047.py) | Medium | 

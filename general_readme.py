@@ -13,7 +13,7 @@ cases = [
     },
     {
         "id": "0004",
-        "url": "https://leetcode.com/problems/two-sum/",
+        "url": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
         "language" : "Python3",
         "difficulty" : "Hard",
     },
