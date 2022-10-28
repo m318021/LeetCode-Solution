@@ -20,6 +20,12 @@ cases = [
         "language" : "Python3",
         "difficulty" : "Easy",
     },
+    {
+        "id": "2180",
+        "url": "https://leetcode.com/problems/count-integers-with-even-digit-sum/",
+        "language": "Python3",
+        "difficulty": "Easy",
+    },
 ]
 
 

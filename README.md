@@ -22,4 +22,4 @@ LeetCode
 |0746|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | [python3](./LeetCode/0746-Min-Cost-Climbing-Stairs/0746.py) | Easy | 
 |0977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [Python3](LeetCode/0977-Squares-of-a-Sorted-Array/0977.py) | Easy | 
 |1945|[Length Of Last Word](https://leetcode.com/problems/length-of-last-word/) | [Python3](./LeetCode/1945-length-of-last-word/1945.py) | Easy | 
-
+|2180|[Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/) | [Python3](./LeetCode/2180-count-integers-with-even-digit-sum/2180.py) | Easy | 
