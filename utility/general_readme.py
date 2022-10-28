@@ -2,7 +2,6 @@ import json
 
 folder_name = "LeetCode"
 cases = [
-
     {
         "id" : "0001",
         "name" : "Two Sum",
@@ -47,12 +46,19 @@ if __name__ == '__main__':
 
     readme_md = []
     for case in cases:
-        result = func_generate_case_info(id=case["id"], url=case["url"], language=case["language"], difficulty=case["difficulty"])
+        result = func_generate_case_info(id=case["id"],
+                                         url=case["url"],
+                                         language=case["language"],
+                                         difficulty=case["difficulty"]
+                                         )
+
         add_line = "|{}|[{}]({}) | [{}](./{}) | {} | ".format(result["id"],
                                                               result["title"],
-                                                              result["url"], result["language"],
+                                                              result["url"],
+                                                              result["language"],
                                                               result["case_path"],
-                                                              result["difficulty"])
+                                                              result["difficulty"]
+                                                              )
 
         print(add_line)
 

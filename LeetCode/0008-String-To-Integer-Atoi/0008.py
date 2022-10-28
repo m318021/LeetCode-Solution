@@ -1,41 +1,82 @@
-# 8. String to Integer (atoi) - Medium 
-# https://leetcode.com/problems/string-to-integer-atoi/
-
-from typing import List
-
 class Solution:
     def myAtoi(self, s: str) -> int:
-
         if not s:
             return 0
+
+        stack = []
         postive = 1
-        find_index = False
-        num = 0
+        postive_check = True
 
         for ch in s:
-            if ch == ' ' and find_index == True:
-                break
-            elif ch!=' ':
-                if (ch == '+' or ch == '-') and find_index == False:
-                    if ch == '-':
-                        postive  = -1
-                    find_index = True
+            if ch == " "and len(stack) == 0 and postive_check:
+                continue
+            elif ch == "-" and postive_check and len(stack) == 0:
+                postive = -1
+                postive_check = False
+            elif ch == "+" and postive_check and len(stack) == 0:
+                postive_check = False
+            else:
+                temp = ord(ch) - ord('0')
+                if 0<=temp<=9:
+                    stack.append(temp)
                 else:
-                    if ch >= '0' and ch <= '9':
-                        num = num * 10 + ord(ch) - ord('0')
-                        find_index = True
-                    else:
-                        break
-        
-        
+                    break
+
+        sum = 0
+
+        stack = stack[::-1]
+        for i in range(len(stack)):
+            sum += stack[i] * pow(10,i)
+
+        sum = sum * postive
+
         MAX = (2 ** 31)-1
-        Min = (-2 ** 31)        
-        num = num * postive 
-        num = num if num <= MAX else MAX
-        num = num if num >= Min else Min
+        Min = (-2 ** 31)
+
+        sum = sum if sum <= MAX else MAX
+        sum = sum if sum >= Min else Min
+
+        return sum
+
+        # if sum > MAX:
+        #     return MAX
+        # elif sum < Min:
+        #     return Min
+        # else:
+        #     return sum
+
+
+        # Method 2
+        # if not s:
+        #     return 0
+        # postive = 1
+        # find_index = False
+        # num = 0
+        #
+        # for ch in s:
+        #     if ch == ' ' and find_index == True:
+        #         break
+        #     elif ch!=' ':
+        #         if (ch == '+' or ch == '-') and find_index == False:
+        #             if ch == '-':
+        #                 postive  = -1
+        #             find_index = True
+        #         else:
+        #             if ch >= '0' and ch <= '9':
+        #                 num = num * 10 + ord(ch) - ord('0')
+        #                 find_index = True
+        #             else:
+        #                 break
+        #
+        #
+        # MAX = (2 ** 31)-1
+        # Min = (-2 ** 31)
+        # num = num * postive
+        # num = num if num <= MAX else MAX
+        # num = num if num >= Min else Min
 
  
-        return num
+        # return num
 
 
 
@@ -68,4 +109,16 @@ if __name__ == '__main__':
 
     str7 = "   +0 123"    
     result7 = Solution().myAtoi(str7)
-    print("Input: str = {} \nOutput = {}\n".format(str7, result7)) 
+    print("Input: str = {} \nOutput = {}\n".format(str7, result7))
+
+    str = "-91283472332"
+    result7 = Solution().myAtoi(str)
+    print("Input: str = {} \nOutput = {}\n".format(str, result7))
+
+    str = "+1"
+    result7 = Solution().myAtoi(str)
+    print("Input: str = {} \nOutput = {}\n".format(str, result7))
+
+    str = "21474836460"
+    result7 = Solution().myAtoi(str)
+    print("Input: str = {} \nOutput = {}\n".format(str, result7))
