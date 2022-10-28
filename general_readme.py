@@ -1,6 +1,9 @@
 import json
 
 folder_name = "LeetCode"
+# 0003 0004 0006 0008 0014 0015 0020 0046 0047 0055 0102 0107 0172 0217
+
+
 cases = [
     {
         "id" : "0258",
@@ -28,22 +31,24 @@ cases = [
     },
 ]
 
-
 def func_generate_case_info(id, url, language, difficulty):
 
     split_url = url.split("/")
     path_name = split_url[-2]
     split_path_name = path_name.split("-")
     # print(split_path_name)
-    new_path_name = []
+    new_split_path_name = []
+    new_path_name = ""
     for word in split_path_name:
         upper_char = word[0].upper()
         upper_char = upper_char + word[1:]
-        new_path_name.append(upper_char)
+        new_split_path_name.append(upper_char)
     title = ""
-    for word in new_path_name:
+    for word in new_split_path_name:
         title = title + word + " "
+        new_path_name = new_path_name + word + "-"
 
+    new_path_name = new_path_name[:-1]
     title = title[:-1]
 
     case_info = {
@@ -51,20 +56,13 @@ def func_generate_case_info(id, url, language, difficulty):
         "title": title,
         "url": url,
         "language": language,
-        "case_path": "{}/{}-{}/{}.py".format(folder_name, id, path_name, id),
+        "case_path": "{}/{}-{}/{}.py".format(folder_name, id, new_path_name, id),
         "difficulty": difficulty
     }
 
     return case_info
 
-
-
-
-
-
-
 if __name__ == '__main__':
-
 
     readme_md = []
     for case in cases:
