@@ -1,6 +1,3 @@
-# 46. Permutations - Medium
-# https://leetcode.com/problems/permutations/
-
 from typing import List
 
 class Solution:

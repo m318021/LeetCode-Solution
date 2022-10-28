@@ -1,5 +1,3 @@
-# 55.  Jump Game - Medium
-# https://leetcode.com/problems/jump-game/
 from typing import List
 
 class Solution:

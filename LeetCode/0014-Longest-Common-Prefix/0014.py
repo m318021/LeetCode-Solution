@@ -1,6 +1,3 @@
-# 14. Longest Common Prefix - Easy
-# https://leetcode.com/problems/longest-common-prefix/
-
 from typing import List
 
 class Solution:

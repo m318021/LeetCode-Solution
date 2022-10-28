@@ -3,29 +3,89 @@ import json
 folder_name = "LeetCode"
 # 0003 0004 0006 0008 0014 0015 0020 0046 0047 0055 0102 0107 0172 0217
 
-
+"0003 0004 0006 0008 0014 0015 0020 0046 0047() 0055 0102() 0107() 0172 0217 "
 cases = [
     {
-        "id" : "0258",
-        "url" : "https://leetcode.com/problems/add-digits/",
+        "id" : "0003",
+        "url" : "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
         "language" : "Python3",
-        "difficulty" : "Easy",
+        "difficulty" : "Medium",
     },
     {
-        "id": "0263",
-        "url": "https://leetcode.com/problems/ugly-number/",
+        "id": "0004",
+        "url": "https://leetcode.com/problems/two-sum/",
         "language" : "Python3",
-        "difficulty" : "Easy",
+        "difficulty" : "Hard",
     },
     {
-        "id": "1945",
-        "url": "https://leetcode.com/problems/length-of-last-word/",
+        "id": "0006",
+        "url": "https://leetcode.com/problems/zigzag-conversion/",
         "language" : "Python3",
-        "difficulty" : "Easy",
+        "difficulty" : "Medium",
     },
     {
-        "id": "2180",
-        "url": "https://leetcode.com/problems/count-integers-with-even-digit-sum/",
+        "id": "0008",
+        "url": "https://leetcode.com/problems/string-to-integer-atoi/",
+        "language": "Python3",
+        "difficulty": "Medium ",
+    },
+    {
+        "id": "0014",
+        "url": "https://leetcode.com/problems/longest-common-prefix/",
+        "language": "Python3",
+        "difficulty": "Easy",
+    },
+    {
+        "id": "0015",
+        "url": "https://leetcode.com/problems/3sum/",
+        "language": "Python3",
+        "difficulty": "Medium",
+    },
+    {
+        "id": "0020",
+        "url": "https://leetcode.com/problems/valid-parentheses/",
+        "language": "Python3",
+        "difficulty": "Easy",
+    },
+    {
+        "id": "0046",
+        "url": "https://leetcode.com/problems/permutations/",
+        "language": "Python3",
+        "difficulty": "Medium",
+    },
+    {
+        "id": "0047",
+        "url": "https://leetcode.com/problems/permutations-ii/",
+        "language": "Python3",
+        "difficulty": "Medium",
+    },
+    {
+        "id": "0055",
+        "url": "https://leetcode.com/problems/jump-game/",
+        "language": "Python3",
+        "difficulty": "Medium",
+    },
+    {
+        "id": "0102",
+        "url": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+        "language": "Python3",
+        "difficulty": "Medium",
+    },
+    {
+        "id": "0107",
+        "url": " https://leetcode.com/problems/binary-tree-level-order-traversal-ii/",
+        "language": "Python3",
+        "difficulty": "Easy",
+    },
+    {
+        "id": "0172",
+        "url": "https://leetcode.com/problems/factorial-trailing-zeroes/",
+        "language": "Python3",
+        "difficulty": "Easy",
+    },
+    {
+        "id": "0217",
+        "url": "https://leetcode.com/problems/contains-duplicate/",
         "language": "Python3",
         "difficulty": "Easy",
     },
