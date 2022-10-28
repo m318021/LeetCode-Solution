@@ -26,6 +26,8 @@ LeetCode
 |0102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Python3](./LeetCode/0102-Binary-Tree-Level-Order-Traversal/0102-bfs.py) | Medium |
 |0107|[Binary Tree Level Order Traversal II]( https://leetcode.com/problems/binary-tree-level-order-traversal-ii/) | [Python3](./LeetCode/0107-Binary-Tree-Level-Order-Traversal-II/0107.py) | Easy |
 |0141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Python3](./LeetCode/0141-Linked-List-Cycle/0141.py) | Easy | 
+| 0168 | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/) | [Python3](./LeetCode/0168-Excel-Sheet-Column-Title/0168.py) | Easy | 
+| 0171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | [Python3](./LeetCode/0171-Excel-Sheet-Column-Number/0171.py) | Easy |
 |0172|[Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/) | [Python3](./LeetCode/0172-Factorial-Trailing-Zeroes/0172.py) | Easy |
 |0202|[Happy Number](https://leetcode.com/problems/happy-number/) | [Python3](./LeetCode/0202-Happy-Number/0202.py) | Easy | 
 |0217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Python3](./LeetCode/0217-Contains-Duplicate/0217.py) | Easy | 
@@ -36,3 +38,4 @@ LeetCode
 |0977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [Python3](LeetCode/0977-Squares-of-a-Sorted-Array/0977.py) | Easy | 
 |1945|[Length Of Last Word](https://leetcode.com/problems/length-of-last-word/) | [Python3](./LeetCode/1945-Length-Of-Last-Word/1945.py) | Easy | 
 |2180|[Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/) | [Python3](./LeetCode/2180-Count-Integers-With-Even-Digit-Sum/2180.py) | Easy |
+| 2194 | [Cells in a Range on an Excel Sheet](https://leetcode.com/problems/cells-in-a-range-on-an-excel-sheet/) | [Python3](./LeetCode/2194-Cells-in-a-Range-on-an-Excel-Sheet/2194.py) | Easy |

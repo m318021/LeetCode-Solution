@@ -45,7 +45,7 @@ def generate_readme_md_by_yaml(yaml_file_path = leetCode_yaml_path):
     readme_md = []
     for index in leetCode_info:
         result = func_generate_case_info(leetCode_info[index])
-        add_line = "|{}|[{}]({}) | [{}](./{}) | {} | ".format(result["id"],
+        add_line = "| {} | [{}]({}) | [{}](./{}) | {} | ".format(result["id"],
                                                               result["title"],
                                                               result["url"],
                                                               result["language"],
