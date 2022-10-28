@@ -6,7 +6,7 @@ class ListNode:
         self.next = None
 
 from typing import List
-from test_lib import process_link_list as list_lib
+from utility.test_lib import process_link_list as list_lib
 
 # class Solution:
 #     def hasCycle(self, head):

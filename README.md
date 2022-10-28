@@ -8,7 +8,7 @@ LeetCode
 |0003|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Python3](./LeetCode/0003-Longest-Substring-Without-Repeating-Characters/0003.py) | Medium | 
 |0004|[Median Of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [Python3](./LeetCode/0004-Median-Of-Two-Sorted-Arrays/0004.py) | Hard | 
 |0006|[Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/) | [Python3](./LeetCode/0006-ZigZag-Conversion/0006.py) | Medium | 
-|0008|[String To Integer Atoi](https://leetcode.com/problems/string-to-integer-atoi/) | [Python3](./LeetCode/0008-String-To-Integer-Atoi/0008.py) | Medium  |
+|0008|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [Python3](./LeetCode/0008-String-To-Integer-Atoi/0008.py) | Medium  |
 |0009|[Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [Python3](./LeetCode/0009-Palindrome-Number/0009.py) | Easy | 
 |0013|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [Python3](./LeetCode/0013-Roman-to-Integer/0013.py) | Easy | 
 |0014|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [Python3](./LeetCode/0014-Longest-Common-Prefix/0014.py) | Easy | 

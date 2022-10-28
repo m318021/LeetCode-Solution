@@ -4,7 +4,7 @@ class ListNode:
         self.next = next
 
 from typing import List
-from test_lib import process_link_list as list_lib
+from utility.test_lib import process_link_list as list_lib
 
 class Solution:
     def deleteDuplicates(self, head: ListNode) -> ListNode:
