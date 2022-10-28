@@ -3,7 +3,6 @@ from typing import List
 class Solution:
     def addStrings(self, num1: str, num2: str) -> str:
 
-
         num1 = num1[::-1]
         num2 = num2[::-1]
 

@@ -1,25 +1,18 @@
-# 8. String to Integer (atoi) - Medium 
-# https://leetcode.com/problems/string-to-integer-atoi/
-
 from typing import List
 
 class Solution:
     def isPalindrome(self, x: int) -> bool:
 
-
         if x < 0:
             return False
 
-
         reverse_value = 0
-        n = x
-        while n != 0:
-            reverse_value = reverse_value *10 + n%10
-
+        n=x
+        while n!=0:
+            reverse_value = reverse_value*10 + n%10
             n = n//10
 
         return reverse_value == x
-
 
 
 if __name__ == '__main__':
@@ -43,3 +36,7 @@ if __name__ == '__main__':
     input_5 = 8
     result4 = Solution().isPalindrome(input_5)
     print("Input: str = {} \nOutput = {}\nExpect = True".format(input_5, result4))
+
+    input_6 = 87899878
+    result6 = Solution().isPalindrome(input_6)
+    print("Input: str = {} \nOutput = {}\nExpect = True".format(input_6, result6))
