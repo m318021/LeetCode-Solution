@@ -1,11 +1,6 @@
-# Definition for singly-linked list.
-class ListNode:
-    def __init__(self, val=0, next=None):
-        self.val = val
-        self.next = next
-
 from typing import List
-from test_lib import process_link_list as list_lib
+from utility.test_lib import process_link_list as list_lib
+from utility.test_lib import ListNode
 
 class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:

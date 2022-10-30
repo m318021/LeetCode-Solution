@@ -1,13 +1,16 @@
 # 1. Two Sum - Easy 
 # https://leetcode.com/problems/two-sum/
 
+
+
+from typing import List
+
+
 # Definition for singly-linked list.
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
         self.next = next
-
-from typing import List
 
 class process_link_list:
     def makeLinkList(self, nums: List[int]) -> ListNode:

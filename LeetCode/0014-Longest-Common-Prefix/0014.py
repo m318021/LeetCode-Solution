@@ -3,7 +3,6 @@ from typing import List
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
 
-
         if not strs:
             return ''
         result = ''
@@ -14,8 +13,6 @@ class Solution:
             result += strs[0][i]
 
         return result
-            
-
 
 
 if __name__ == '__main__':
@@ -32,3 +29,7 @@ if __name__ == '__main__':
     strs = ["a"]
     result = Solution().longestCommonPrefix(strs)
     print("Input: {}, Output = {}\nExpect = {}\n".format(strs, result, "a"))
+
+
+
+
