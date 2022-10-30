@@ -3,8 +3,8 @@ LeetCode
 
 | ID | Title | python3                                   | Difficulty |
 | -- | ----- | ------------------------------------------- | ---------- | 
-| 0001 | [Two Sum](https://leetcode.com/problems/two-sum/) | [python3](./LeetCode/0001-Two-Sum/0001.py) | Easy | 
-| 0002 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [python3](./LeetCode/0002-Add-Two-Numbers/0002.py) | Easy | 
+| 0001 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Python3](./LeetCode/0001-Two-Sum/0001.py) | Easy || 0002 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [python3](./LeetCode/0002-Add-Two-Numbers/0002.py) | Easy | 
+| 0002 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Python3](./LeetCode/0002-Add-Two-Numbers/0002.py) | Medium |
 | 0003 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Python3](./LeetCode/0003-Longest-Substring-Without-Repeating-Characters/0003.py) | Medium | 
 | 0004 | [Median Of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [Python3](./LeetCode/0004-Median-Of-Two-Sorted-Arrays/0004.py) | Hard | 
 | 0006 | [Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/) | [Python3](./LeetCode/0006-ZigZag-Conversion/0006.py) | Medium | 
@@ -29,7 +29,7 @@ LeetCode
 | 0168 | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/) | [Python3](./LeetCode/0168-Excel-Sheet-Column-Title/0168.py) | Easy | 
 | 0169 | [Majority Element](https://leetcode.com/problems/majority-element/) | [Python3](./LeetCode/0169-Majority-Element/0169.py) | Easy | 
 | 0171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | [Python3](./LeetCode/0171-Excel-Sheet-Column-Number/0171.py) | Easy |
-| 0172 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/) | [Python3](./LeetCode/0172-Factorial-Trailing-Zeroes/0172.py) | Easy |
+| 0172 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/) | [Python3](./LeetCode/0172-Factorial-Trailing-Zeroes/0172.py) | Medium | 
 | 0202 | [Happy Number](https://leetcode.com/problems/happy-number/) | [Python3](./LeetCode/0202-Happy-Number/0202.py) | Easy | 
 | 0217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Python3](./LeetCode/0217-Contains-Duplicate/0217.py) | Easy | 
 | 0229 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/) | [Python3](./LeetCode/0229-Majority-Element-II/0229.py) | Medium |
