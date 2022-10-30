@@ -10,7 +10,7 @@ root_path = pathlib.Path(__file__).parent.parent.resolve()
 
 folder_name = "LeetCode"
 leetCode_yaml_path = "utility/leetCode.yaml"
-default_file_text = "if __name__ == '__main__': \n    print(\"TEST\")"
+default_file_text = "from typing import List\nif __name__ == '__main__': \n    #input\n    #output"
 language = "Python3"
 
 def func_get_leetcode_cases(limit=100, filters={}):
@@ -84,6 +84,34 @@ def func_generate_case_info(case_id):
 
     return data
 
+def func_print_case_info(case_id:str, open_file = True):
+    result = func_generate_case_info(case_id)
+
+    add_line = "| {} | [{}]({}) | [{}](./{}) | {} | ".format(case_id,
+                                                             result["title"],
+                                                             result["url"],
+                                                             language,
+                                                             result["case_path"],
+                                                             result["difficulty"]
+                                                             )
+
+    if open_file:
+        if os.path.isdir(result["folder_path"]) == False:
+            os.mkdir(result["folder_path"])
+            print("Create Folder : {}".format(result["folder_path"]))
+
+            f = open(result["case_path"], "w+")
+            f.write(default_file_text)
+            f.close()
+            print("Create File : {}".format(result["case_path"]))
+
+        else:
+            print("FIle : \"{}\" exist".format(result["case_path"]))
+
+    return add_line
+
+
+
 def generate_readme_md_by_yaml(yaml_file_path = leetCode_yaml_path, open_file = True):
     leetCode_info = get_yaml_data(yaml_file_path=yaml_file_path)
     readme_md = []
@@ -98,43 +126,61 @@ def generate_readme_md_by_yaml(yaml_file_path = leetCode_yaml_path, open_file = 
         else:
             str_case_id = str(case_id)
 
-        result = func_generate_case_info(str_case_id)
-
-        add_line = "| {} | [{}]({}) | [{}](./{}) | {} | ".format(str_case_id,
-                                                              result["title"],
-                                                              result["url"],
-                                                              language,
-                                                              result["case_path"],
-                                                              result["difficulty"]
-                                                              )
-
-        if open_file:
-            if os.path.isdir(result["folder_path"]) == False:
-                os.mkdir(result["folder_path"])
-                print("Create Folder : {}".format(result["folder_path"]))
-
-                f = open(result["case_path"], "w+")
-                f.write(default_file_text)
-                f.close()
-                print("Create File : {}".format(result["case_path"]))
-
-            else:
-                print("FIle : \"{}\" exist".format(result["case_path"]))
+        add_line = func_print_case_info(str_case_id)
+        # result = func_generate_case_info(str_case_id)
+        #
+        # add_line = "| {} | [{}]({}) | [{}](./{}) | {} | ".format(str_case_id,
+        #                                                       result["title"],
+        #                                                       result["url"],
+        #                                                       language,
+        #                                                       result["case_path"],
+        #                                                       result["difficulty"]
+        #                                                       )
+        #
+        # if open_file:
+        #     if os.path.isdir(result["folder_path"]) == False:
+        #         os.mkdir(result["folder_path"])
+        #         print("Create Folder : {}".format(result["folder_path"]))
+        #
+        #         f = open(result["case_path"], "w+")
+        #         f.write(default_file_text)
+        #         f.close()
+        #         print("Create File : {}".format(result["case_path"]))
+        #
+        #     else:
+        #         print("FIle : \"{}\" exist".format(result["case_path"]))
 
         readme_md.append(add_line)
 
     return readme_md
 
+def generate_readme_md_info():
+    case_list = os.listdir(path=folder_name)
+
+    result = []
+    for folder in case_list:
+        if folder != ".DS_Store":
+            split_folder_name = folder.split("-")
+
+            add_line = func_print_case_info(split_folder_name[0], False)
+
+            result.append(add_line)
+
+    return result
 
 if __name__ == '__main__':
 
-    read_md_info = generate_readme_md_by_yaml(open_file=True)
-    read_md_info.sort()
-    print("\nREADME.md ===============================\n")
-    print_result(read_md_info)
-    print("\n ===============================\n")
-    print("{} cases".format(len(read_md_info)))
+    # read_md_info = generate_readme_md_by_yaml(open_file=True)
+    # read_md_info.sort()
+    # print("\nREADME.md ===============================\n")
+    # print_result(read_md_info)
+    # print("\n ===============================\n")
+    # print("add {} cases".format(len(read_md_info)))
 
+    result = generate_readme_md_info()
+    result.sort()
+    print_result(result)
+    print("{} cases".format(len(result)))
 
 
 
