@@ -1,25 +1,12 @@
 ---
-
-01:
-  id: '0169'
-  title:  Majority Element
-  url: https://leetcode.com/problems/majority-element/
-  language: Python3
-  difficulty: Easy
-
-#02:
-#  id: '0171'
-#  title: Excel Sheet Column Number
-#  url: https://leetcode.com/problems/excel-sheet-column-number/
+#01:
+#  id: '0001'
+#  title:  Two Sum
+#  url: https://leetcode.com/problems/two-sum/
 #  language: Python3
-#  difficulty: Easy
-#
-#03:
-#  id: '2194'
-#  title: Cells in a Range on an Excel Sheet
-#  url: https://leetcode.com/problems/cells-in-a-range-on-an-excel-sheet/
-#  language: Python3
-#  difficulty: Easy
+#  difficulty: Easy  Easy
+
+
 
 
 

@@ -68,13 +68,18 @@ def generate_readme_md_by_yaml(yaml_file_path = leetCode_yaml_path, open_file = 
             else:
                 print("FIle : \"{}\" exist".format(result["case_path"]))
 
-
         readme_md.append(add_line)
 
     return readme_md
 
 if __name__ == '__main__':
-    print_result(generate_readme_md_by_yaml(open_file=True))
+
+    read_md_info = generate_readme_md_by_yaml(open_file=True)
+    read_md_info.sort()
+    print("\nREADME.md ===============================\n")
+    print_result(read_md_info)
+    print("\n ===============================\n")
+    print("{} cases".format(len(read_md_info)))
 
 
 
