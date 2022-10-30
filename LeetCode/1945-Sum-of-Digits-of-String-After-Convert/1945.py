@@ -10,7 +10,6 @@ class Solution:
 
         result = 0
         for i in range(k):
-            print(test_string)
             sum = 0
             for j in test_string:
                 sum = sum+int(j)
