@@ -2,7 +2,7 @@ LeetCode
 ========
 
 |-- | ID | Title | python3                                   | Difficulty |
-| -- | ----- | ------------------------------------------- | ---------- | 
+| -- |-- | ----- | ------------------------------------------- | ---------- | 
 |  1| 0001 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Python3](./LeetCode/0001-Two-Sum/0001.py) | Easy | 
 |  2| 0002 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Python3](./LeetCode/0002-Add-Two-Numbers/0002.py) | Medium | 
 |  3| 0003 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Python3](./LeetCode/0003-Longest-Substring-Without-Repeating-Characters/0003.py) | Medium | 
