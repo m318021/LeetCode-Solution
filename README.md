@@ -1,7 +1,7 @@
 LeetCode
 ========
 
-|  | ID | Title | python3                                   | Difficulty |
+|-- | ID | Title | python3                                   | Difficulty |
 | -- | ----- | ------------------------------------------- | ---------- | 
 |  1| 0001 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Python3](./LeetCode/0001-Two-Sum/0001.py) | Easy | 
 |  2| 0002 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Python3](./LeetCode/0002-Add-Two-Numbers/0002.py) | Medium | 
