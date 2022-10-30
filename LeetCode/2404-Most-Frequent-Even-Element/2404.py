@@ -3,11 +3,8 @@ class Solution:
     def mostFrequentEven(self, nums: List[int]) -> int:
         map = {}
 
-        for num in nums:
-            if num not in map:
-                map[num] = 1
-            else :
-                map[num] += 1
+        for i in nums:
+            map[i] = map.get(i, 0) + 1
 
         result, smallest = 0, -1
         for key in map:
