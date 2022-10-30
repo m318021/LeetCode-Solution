@@ -152,7 +152,7 @@ def generate_readme_md_case_info():
 def write_readme_md_file(readme_data):
 
 
-    summary = "LeetCode\n========\n\n|-- | ID | Title | python3                                   | Difficulty |\n| -- | ----- | ------------------------------------------- | ---------- | "
+    summary = "LeetCode\n========\n\n|-- | ID | Title | python3                                   | Difficulty |\n| -- |-- | ----- | ------------------------------------------- | ---------- | "
     count = 1
     for item in readme_data:
         summary = summary + "\n" +"|  " + str(count) +item
