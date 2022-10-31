@@ -3,13 +3,14 @@ import configparser
 import pathlib, os
 import yaml
 import requests, hmac, hashlib
+import path
 from urllib.parse import urljoin
 
 # leetCode_config = configparser.ConfigParser()
 root_path = pathlib.Path(__file__).parent.parent.resolve()
 
-folder_name = "LeetCode"
-README_MD = "README.md"
+folder_name = os.path.join(root_path,"LeetCode")
+README_MD = os.path.join(root_path, "README.md")
 leetCode_yaml_path = "utility/leetCode.yaml"
 default_file_text = "from typing import List\nif __name__ == '__main__': \n    #input\n    #output"
 language = "Python3"
@@ -97,11 +98,13 @@ def func_print_case_info(case_id:str, open_file = True):
                                                              )
 
     if open_file:
-        if os.path.isdir(result["folder_path"]) == False:
-            os.mkdir(result["folder_path"])
+        abs_path = os.path.join(root_path, result["folder_path"] )
+        abs_file_path = os.path.join(root_path, result["case_path"])
+        if os.path.isdir(abs_path) == False:
+            os.mkdir(abs_path)
             print("Create Folder : {}".format(result["folder_path"]))
 
-            f = open(result["case_path"], "w+")
+            f = open(abs_file_path, "w+")
             f.write(default_file_text)
             f.close()
             print("Create File : {}".format(result["case_path"]))
@@ -133,7 +136,8 @@ def generate_readme_md_by_yaml(yaml_file_path = leetCode_yaml_path, open_file = 
     return readme_md
 
 def generate_readme_md_case_info():
-    case_list = os.listdir(path=folder_name)
+
+    case_list = os.listdir(path= folder_name)
 
     result = []
     for folder in case_list:
@@ -158,7 +162,6 @@ def write_readme_md_file(readme_data):
         summary = summary + "\n" +"|  " + str(count) +item
         count = count+1
 
-
     f = open(README_MD, "w")
     f.write(summary)
     f.close()
@@ -180,6 +183,7 @@ if __name__ == '__main__':
     print("Upate READEME.md ")
     write_readme_md_file(result)
     print("{} cases".format(len(result)))
+
 
 
 
