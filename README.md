@@ -32,20 +32,28 @@ LeetCode
 |  27| 0171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | [Python3](./LeetCode/0171-Excel-Sheet-Column-Number/0171.py) | Easy | 
 |  28| 0172 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/) | [Python3](./LeetCode/0172-Factorial-Trailing-Zeroes/0172.py) | Medium | 
 |  29| 0202 | [Happy Number](https://leetcode.com/problems/happy-number/) | [Python3](./LeetCode/0202-Happy-Number/0202.py) | Easy | 
-|  30| 0217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Python3](./LeetCode/0217-Contains-Duplicate/0217.py) | Easy | 
-|  31| 0229 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/) | [Python3](./LeetCode/0229-Majority-Element-II/0229.py) | Medium | 
-|  32| 0258 | [Add Digits](https://leetcode.com/problems/add-digits/) | [Python3](./LeetCode/0258-Add-Digits/0258.py) | Easy | 
-|  33| 0263 | [Ugly Number](https://leetcode.com/problems/ugly-number/) | [Python3](./LeetCode/0263-Ugly-Number/0263.py) | Easy | 
-|  34| 0347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [Python3](./LeetCode/0347-Top-K-Frequent-Elements/0347.py) | Medium | 
-|  35| 0415 | [Add Strings](https://leetcode.com/problems/add-strings/) | [Python3](./LeetCode/0415-Add-Strings/0415.py) | Easy | 
-|  36| 0599 | [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/) | [Python3](./LeetCode/0599-Minimum-Index-Sum-of-Two-Lists/0599.py) | Easy | 
-|  37| 0746 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | [Python3](./LeetCode/0746-Min-Cost-Climbing-Stairs/0746.py) | Easy | 
-|  38| 0977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [Python3](./LeetCode/0977-Squares-of-a-Sorted-Array/0977.py) | Easy | 
-|  39| 1030 | [Matrix Cells in Distance Order](https://leetcode.com/problems/matrix-cells-in-distance-order/) | [Python3](./LeetCode/1030-Matrix-Cells-in-Distance-Order/1030.py) | Easy | 
-|  40| 1647 | [Minimum Deletions to Make Character Frequencies Unique](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/) | [Python3](./LeetCode/1647-Minimum-Deletions-to-Make-Character-Frequencies-Unique/1647.py) | Medium | 
-|  41| 1945 | [Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/) | [Python3](./LeetCode/1945-Sum-of-Digits-of-String-After-Convert/1945.py) | Easy | 
-|  42| 2180 | [Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/) | [Python3](./LeetCode/2180-Count-Integers-With-Even-Digit-Sum/2180.py) | Easy | 
-|  43| 2194 | [Cells in a Range on an Excel Sheet](https://leetcode.com/problems/cells-in-a-range-on-an-excel-sheet/) | [Python3](./LeetCode/2194-Cells-in-a-Range-on-an-Excel-Sheet/2194.py) | Easy | 
-|  44| 2404 | [Most Frequent Even Element](https://leetcode.com/problems/most-frequent-even-element/) | [Python3](./LeetCode/2404-Most-Frequent-Even-Element/2404.py) | Easy | 
-|  45| 2423 | [Remove Letter To Equalize Frequency](https://leetcode.com/problems/remove-letter-to-equalize-frequency/) | [Python3](./LeetCode/2423-Remove-Letter-To-Equalize-Frequency/2423.py) | Easy | 
-|  46| 2441 | [Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative/) | [Python3](./LeetCode/2441-Largest-Positive-Integer-That-Exists-With-Its-Negative/2441.py) | Easy | 
+|  30| 0205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | [Python3](./LeetCode/0205-Isomorphic-Strings/0205.py) | Easy | 
+|  31| 0217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Python3](./LeetCode/0217-Contains-Duplicate/0217.py) | Easy | 
+|  32| 0229 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/) | [Python3](./LeetCode/0229-Majority-Element-II/0229.py) | Medium | 
+|  33| 0258 | [Add Digits](https://leetcode.com/problems/add-digits/) | [Python3](./LeetCode/0258-Add-Digits/0258.py) | Easy | 
+|  34| 0263 | [Ugly Number](https://leetcode.com/problems/ugly-number/) | [Python3](./LeetCode/0263-Ugly-Number/0263.py) | Easy | 
+|  35| 0290 | [Word Pattern](https://leetcode.com/problems/word-pattern/) | [Python3](./LeetCode/0290-Word-Pattern/0290.py) | Easy | 
+|  36| 0347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [Python3](./LeetCode/0347-Top-K-Frequent-Elements/0347.py) | Medium | 
+|  37| 0349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | [Python3](./LeetCode/0349-Intersection-of-Two-Arrays/0349.py) | Easy | 
+|  38| 0415 | [Add Strings](https://leetcode.com/problems/add-strings/) | [Python3](./LeetCode/0415-Add-Strings/0415.py) | Easy | 
+|  39| 0599 | [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/) | [Python3](./LeetCode/0599-Minimum-Index-Sum-of-Two-Lists/0599.py) | Easy | 
+|  40| 0746 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | [Python3](./LeetCode/0746-Min-Cost-Climbing-Stairs/0746.py) | Easy | 
+|  41| 0977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [Python3](./LeetCode/0977-Squares-of-a-Sorted-Array/0977.py) | Easy | 
+|  42| 1030 | [Matrix Cells in Distance Order](https://leetcode.com/problems/matrix-cells-in-distance-order/) | [Python3](./LeetCode/1030-Matrix-Cells-in-Distance-Order/1030.py) | Easy | 
+|  43| 1455 | [Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/) | [Python3](./LeetCode/1455-Check-If-a-Word-Occurs-As-a-Prefix-of-Any-Word-in-a-Sentence/1455.py) | Easy | 
+|  44| 1647 | [Minimum Deletions to Make Character Frequencies Unique](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/) | [Python3](./LeetCode/1647-Minimum-Deletions-to-Make-Character-Frequencies-Unique/1647.py) | Medium | 
+|  45| 1945 | [Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/) | [Python3](./LeetCode/1945-Sum-of-Digits-of-String-After-Convert/1945.py) | Easy | 
+|  46| 2180 | [Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/) | [Python3](./LeetCode/2180-Count-Integers-With-Even-Digit-Sum/2180.py) | Easy | 
+|  47| 2185 | [Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/) | [Python3](./LeetCode/2185-Counting-Words-With-a-Given-Prefix/2185.py) | Easy | 
+|  48| 2194 | [Cells in a Range on an Excel Sheet](https://leetcode.com/problems/cells-in-a-range-on-an-excel-sheet/) | [Python3](./LeetCode/2194-Cells-in-a-Range-on-an-Excel-Sheet/2194.py) | Easy | 
+|  49| 2215 | [Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/) | [Python3](./LeetCode/2215-Find-the-Difference-of-Two-Arrays/2215.py) | Easy | 
+|  50| 2248 | [Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-multiple-arrays/) | [Python3](./LeetCode/2248-Intersection-of-Multiple-Arrays/2248.py) | Easy | 
+|  51| 2255 | [Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/) | [Python3](./LeetCode/2255-Count-Prefixes-of-a-Given-String/2255.py) | Easy | 
+|  52| 2404 | [Most Frequent Even Element](https://leetcode.com/problems/most-frequent-even-element/) | [Python3](./LeetCode/2404-Most-Frequent-Even-Element/2404.py) | Easy | 
+|  53| 2423 | [Remove Letter To Equalize Frequency](https://leetcode.com/problems/remove-letter-to-equalize-frequency/) | [Python3](./LeetCode/2423-Remove-Letter-To-Equalize-Frequency/2423.py) | Easy | 
+|  54| 2441 | [Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative/) | [Python3](./LeetCode/2441-Largest-Positive-Integer-That-Exists-With-Its-Negative/2441.py) | Easy | 
