@@ -9,7 +9,7 @@ from urllib.parse import urljoin
 # leetCode_config = configparser.ConfigParser()
 root_path = pathlib.Path(__file__).parent.parent.resolve()
 
-folder_name = os.path.join(root_path,"LeetCode")
+folder_name = "LeetCode"
 README_MD = os.path.join(root_path, "README.md")
 leetCode_yaml_path = "utility/leetCode.yaml"
 default_file_text = "from typing import List\nif __name__ == '__main__': \n    #input\n    #output"
@@ -136,8 +136,8 @@ def generate_readme_md_by_yaml(yaml_file_path = leetCode_yaml_path, open_file = 
     return readme_md
 
 def generate_readme_md_case_info():
-
-    case_list = os.listdir(path= folder_name)
+    abs_folder_path = os.path.join(root_path, folder_name)
+    case_list = os.listdir(path= abs_folder_path)
 
     result = []
     for folder in case_list:
