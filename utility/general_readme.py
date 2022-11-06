@@ -11,7 +11,7 @@ root_path = pathlib.Path(__file__).parent.parent.resolve()
 
 folder_name = "LeetCode"
 README_MD = os.path.join(root_path, "README.md")
-leetCode_yaml_path = "utility/leetCode.yaml"
+leetCode_yaml_path = "add_leetCode_cases.yaml"
 default_file_text = "from typing import List\nif __name__ == '__main__': \n    #input\n    #output"
 language = "Python3"
 
