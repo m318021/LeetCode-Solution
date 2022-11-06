@@ -81,6 +81,8 @@ class process_tree_node():
             level_count = pow(2, level) - 1
             if level_count == count or count == 1:
                 print("")
+
+        print("\n")
             # print(count)
             # print(level_count)
 
