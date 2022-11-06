@@ -87,22 +87,22 @@ class process_tree_node():
             # print(level_count)
 
 
-    def preorder(self, root):
-        if root==None:
-            return
-        if root.left == None:
-            left = "None"
-        else:
-            left = root.left.val
-
-        if root.right == None:
-            right = "None"
-        else:
-            right = root.right.val
-        print("Node = {}, left = {}, right = {}".format(root.val, left, right))
-
-        self.preorder(root.left)
-        self.preorder(root.right)
+    # def preorder(self, root):
+    #     if root==None:
+    #         return
+    #     if root.left == None:
+    #         left = "None"
+    #     else:
+    #         left = root.left.val
+    #
+    #     if root.right == None:
+    #         right = "None"
+    #     else:
+    #         right = root.right.val
+    #     print("Node = {}, left = {}, right = {}".format(root.val, left, right))
+    #
+    #     self.preorder(root.left)
+    #     self.preorder(root.right)
 
 
 
