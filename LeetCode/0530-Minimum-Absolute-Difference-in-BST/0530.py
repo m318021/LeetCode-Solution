@@ -38,7 +38,6 @@ if __name__ == '__main__':
     root = [4,2,6,1,3]
     tree = process_tree_node().build_binary_tree(root)
     process_tree_node().print_binary_tree(tree)
-
     output = Solution().getMinimumDifference(tree)
     print(str(output) + "\n")
 

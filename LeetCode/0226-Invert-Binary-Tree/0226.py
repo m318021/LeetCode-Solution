@@ -1,5 +1,3 @@
-import collections
-from typing import List
 from utility.test_lib import process_tree_node
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
@@ -11,16 +9,15 @@ class Solution:
         if not root:
             return root
 
-        temp = root.right
-        root.right = root.left
-        root.left = temp
+        temp = root.left
+        root.left = root.right
+        root.right = temp
 
-        root.right = self.invertTree(root.right)
         root.left = self.invertTree(root.left)
+        root.right = self.invertTree(root.right)
+
 
         return root
-
-
 
 
 if __name__ == '__main__':
@@ -28,7 +25,8 @@ if __name__ == '__main__':
     tree = process_tree_node().build_binary_tree(root)
     process_tree_node().print_binary_tree(tree)
     output = Solution().invertTree(tree)
-    print("\n" + str(output) + "\n")
+    # print("\n" + str(output) + "\n")
+    process_tree_node().preorder(output)
 
     root = [2, 1, 3]
     tree = process_tree_node().build_binary_tree(root)
