@@ -55,20 +55,24 @@ LeetCode
 |  50| 0637 | [Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/) | [Python3](./LeetCode/0637-Average-of-Levels-in-Binary-Tree/0637.py) | Easy | 
 |  51| 0746 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | [Python3](./LeetCode/0746-Min-Cost-Climbing-Stairs/0746.py) | Easy | 
 |  52| 0783 | [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/) | [Python3](./LeetCode/0783-Minimum-Distance-Between-BST-Nodes/0783.py) | Easy | 
-|  53| 0958 | [Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/) | [Python3](./LeetCode/0958-Check-Completeness-of-a-Binary-Tree/0958.py) | Medium | 
-|  54| 0965 | [Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/) | [Python3](./LeetCode/0965-Univalued-Binary-Tree/0965.py) | Easy | 
-|  55| 0977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [Python3](./LeetCode/0977-Squares-of-a-Sorted-Array/0977.py) | Easy | 
-|  56| 0993 | [Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/) | [Python3](./LeetCode/0993-Cousins-in-Binary-Tree/0993.py) | Easy | 
-|  57| 1030 | [Matrix Cells in Distance Order](https://leetcode.com/problems/matrix-cells-in-distance-order/) | [Python3](./LeetCode/1030-Matrix-Cells-in-Distance-Order/1030.py) | Easy | 
-|  58| 1455 | [Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/) | [Python3](./LeetCode/1455-Check-If-a-Word-Occurs-As-a-Prefix-of-Any-Word-in-a-Sentence/1455.py) | Easy | 
-|  59| 1647 | [Minimum Deletions to Make Character Frequencies Unique](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/) | [Python3](./LeetCode/1647-Minimum-Deletions-to-Make-Character-Frequencies-Unique/1647.py) | Medium | 
-|  60| 1945 | [Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/) | [Python3](./LeetCode/1945-Sum-of-Digits-of-String-After-Convert/1945.py) | Easy | 
-|  61| 2180 | [Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/) | [Python3](./LeetCode/2180-Count-Integers-With-Even-Digit-Sum/2180.py) | Easy | 
-|  62| 2185 | [Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/) | [Python3](./LeetCode/2185-Counting-Words-With-a-Given-Prefix/2185.py) | Easy | 
-|  63| 2194 | [Cells in a Range on an Excel Sheet](https://leetcode.com/problems/cells-in-a-range-on-an-excel-sheet/) | [Python3](./LeetCode/2194-Cells-in-a-Range-on-an-Excel-Sheet/2194.py) | Easy | 
-|  64| 2215 | [Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/) | [Python3](./LeetCode/2215-Find-the-Difference-of-Two-Arrays/2215.py) | Easy | 
-|  65| 2248 | [Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-multiple-arrays/) | [Python3](./LeetCode/2248-Intersection-of-Multiple-Arrays/2248.py) | Easy | 
-|  66| 2255 | [Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/) | [Python3](./LeetCode/2255-Count-Prefixes-of-a-Given-String/2255.py) | Easy | 
-|  67| 2404 | [Most Frequent Even Element](https://leetcode.com/problems/most-frequent-even-element/) | [Python3](./LeetCode/2404-Most-Frequent-Even-Element/2404.py) | Easy | 
-|  68| 2423 | [Remove Letter To Equalize Frequency](https://leetcode.com/problems/remove-letter-to-equalize-frequency/) | [Python3](./LeetCode/2423-Remove-Letter-To-Equalize-Frequency/2423.py) | Easy | 
-|  69| 2441 | [Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative/) | [Python3](./LeetCode/2441-Largest-Positive-Integer-That-Exists-With-Its-Negative/2441.py) | Easy | 
+|  53| 0872 | [Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/) | [Python3](./LeetCode/0872-Leaf-Similar-Trees/0872.py) | Easy | 
+|  54| 0897 | [Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/) | [Python3](./LeetCode/0897-Increasing-Order-Search-Tree/0897.py) | Easy | 
+|  55| 0938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | [Python3](./LeetCode/0938-Range-Sum-of-BST/0938.py) | Easy | 
+|  56| 0958 | [Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/) | [Python3](./LeetCode/0958-Check-Completeness-of-a-Binary-Tree/0958.py) | Medium | 
+|  57| 0965 | [Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/) | [Python3](./LeetCode/0965-Univalued-Binary-Tree/0965.py) | Easy | 
+|  58| 0977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [Python3](./LeetCode/0977-Squares-of-a-Sorted-Array/0977.py) | Easy | 
+|  59| 0993 | [Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/) | [Python3](./LeetCode/0993-Cousins-in-Binary-Tree/0993.py) | Easy | 
+|  60| 1022 | [Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/) | [Python3](./LeetCode/1022-Sum-of-Root-To-Leaf-Binary-Numbers/1022-2.py) | Easy | 
+|  61| 1030 | [Matrix Cells in Distance Order](https://leetcode.com/problems/matrix-cells-in-distance-order/) | [Python3](./LeetCode/1030-Matrix-Cells-in-Distance-Order/1030.py) | Easy | 
+|  62| 1455 | [Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/) | [Python3](./LeetCode/1455-Check-If-a-Word-Occurs-As-a-Prefix-of-Any-Word-in-a-Sentence/1455.py) | Easy | 
+|  63| 1647 | [Minimum Deletions to Make Character Frequencies Unique](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/) | [Python3](./LeetCode/1647-Minimum-Deletions-to-Make-Character-Frequencies-Unique/1647.py) | Medium | 
+|  64| 1945 | [Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/) | [Python3](./LeetCode/1945-Sum-of-Digits-of-String-After-Convert/1945.py) | Easy | 
+|  65| 2180 | [Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/) | [Python3](./LeetCode/2180-Count-Integers-With-Even-Digit-Sum/2180.py) | Easy | 
+|  66| 2185 | [Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/) | [Python3](./LeetCode/2185-Counting-Words-With-a-Given-Prefix/2185.py) | Easy | 
+|  67| 2194 | [Cells in a Range on an Excel Sheet](https://leetcode.com/problems/cells-in-a-range-on-an-excel-sheet/) | [Python3](./LeetCode/2194-Cells-in-a-Range-on-an-Excel-Sheet/2194.py) | Easy | 
+|  68| 2215 | [Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/) | [Python3](./LeetCode/2215-Find-the-Difference-of-Two-Arrays/2215.py) | Easy | 
+|  69| 2248 | [Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-multiple-arrays/) | [Python3](./LeetCode/2248-Intersection-of-Multiple-Arrays/2248.py) | Easy | 
+|  70| 2255 | [Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/) | [Python3](./LeetCode/2255-Count-Prefixes-of-a-Given-String/2255.py) | Easy | 
+|  71| 2404 | [Most Frequent Even Element](https://leetcode.com/problems/most-frequent-even-element/) | [Python3](./LeetCode/2404-Most-Frequent-Even-Element/2404.py) | Easy | 
+|  72| 2423 | [Remove Letter To Equalize Frequency](https://leetcode.com/problems/remove-letter-to-equalize-frequency/) | [Python3](./LeetCode/2423-Remove-Letter-To-Equalize-Frequency/2423.py) | Easy | 
+|  73| 2441 | [Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative/) | [Python3](./LeetCode/2441-Largest-Positive-Integer-That-Exists-With-Its-Negative/2441.py) | Easy | 
