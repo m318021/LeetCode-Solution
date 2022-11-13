@@ -1,11 +1,11 @@
 import json
 import configparser
 import pathlib, os
-import yaml
+import yaml, time
 import requests, hmac, hashlib
 import path
 from urllib.parse import urljoin
-
+from utility.api_request import *
 # leetCode_config = configparser.ConfigParser()
 root_path = pathlib.Path(__file__).parent.parent.resolve()
 
@@ -15,8 +15,10 @@ leetCode_yaml_path = "add_leetCode_cases.yaml"
 default_file_text = "from typing import List\nif __name__ == '__main__': \n    #input\n    #output"
 language = "Python3"
 
-def func_get_leetcode_cases(limit=100, filters={}):
-    url = "https://leetcode.com/graphql/"
+
+def func_get_leetcode_cases(limit=1, filters={}):
+    url = "https://leetcode.com"
+    path = "graphql/"
 
     body = {
         "query":"\n query problemsetQuestionList($categorySlug: String, $limit: Int, $skip: Int, $filters: QuestionListFilterInput) {\n problemsetQuestionList: questionList(\n categorySlug: $categorySlug\n limit: $limit\n skip: $skip\n filters: $filters\n ) {\n total: totalNum\n questions: data {\n acRate\n difficulty\n freqBar\n frontendQuestionId: questionFrontendId\n isFavor\n paidOnly: isPaidOnly\n status\n title\n titleSlug\n topicTags {\n name\n id\n slug\n }\n hasSolution\n hasVideoSolution\n }\n }\n}\n ",
@@ -24,7 +26,7 @@ def func_get_leetcode_cases(limit=100, filters={}):
             "categorySlug":"",
             "skip":0,
             "limit":limit,
-            "filters":filters
+            "filters": filters
         }
     }
 
@@ -33,17 +35,38 @@ def func_get_leetcode_cases(limit=100, filters={}):
         "content-type": "application/json"
     }
 
-    response = requests.Session().get(url=url, headers=headers, data=json.dumps(body))
-
+    response = API_Request(server=url).post(path=path, headers=headers, data=json.dumps(body))
+    logging.info(response.json())
     assert response.status_code == 200
 
     return response.json()
 
+def func_get_total_leet_code_cases():
+    get_total_cases = func_get_leetcode_cases()
+
+    total = get_total_cases["data"]["problemsetQuestionList"]["total"]
+
+    total_questions = func_get_leetcode_cases(limit=total)["data"]["problemsetQuestionList"]["questions"]
+
+    return total_questions
+
+
+
+total_questions = func_get_total_leet_code_cases()
+
+
 def func_get_leetcode_case_data(case_id):
-    filters = {"searchKeywords": str(case_id)}
-    filter_questions = func_get_leetcode_cases(filters=filters)["data"]["problemsetQuestionList"]["questions"]
+    # get_total_cases = func_get_leetcode_cases()
+    #
+    # total = get_total_cases["data"]["problemsetQuestionList"]["total"]
+    #
+    #
+    # # filters = {"searchKeywords": str(case_id)}
+    #
+    # filter_questions = func_get_leetcode_cases(limit=total)["data"]["problemsetQuestionList"]["questions"]
+
     case = {}
-    for data in filter_questions:
+    for data in total_questions:
         if data["frontendQuestionId"] == str(case_id):
             case = data
             break
